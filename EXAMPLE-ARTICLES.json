@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-02-13T15:30:00.000Z",
+  "totalArticles": 3,
+  "articles": [
+    {
+      "id": 1,
+      "title": "Perhutani KPH Bandung Selatan Dukung Program PPL Siswa SMA Muhammadiyah 4 Bandung",
+      "excerpt": "Perhutani KPH Bandung Selatan dengan bangga menerima kunjungan mahasiswa dan siswa dalam rangka program Praktik Pengalaman Lapangan (PPL) dari SMA Muhammadiyah 4 Bandung...",
+      "content": "<p>Perhutani KPH Bandung Selatan dengan bangga menerima kunjungan mahasiswa dan siswa dalam rangka program Praktik Pengalaman Lapangan (PPL) dari SMA Muhammadiyah 4 Bandung. Kegiatan ini merupakan bagian dari komitmen Perhutani dalam mendukung pendidikan lingkungan dan pengembangan generasi muda yang peduli terhadap kelestarian hutan.</p>\n<p>Selama program PPL, siswa-siswa berkesempatan untuk belajar langsung tentang pengelolaan hutan berkelanjutan, teknologi terkini dalam konservasi, dan tantangan nyata yang dihadapi dalam menjaga ekosistem hutan. Mereka juga mendapat kesempatan untuk terlibat dalam kegiatan-kegiatan lapangan seperti monitoring pohon, pemetaan area hutan, dan edukasi lingkungan ke masyarakat sekitar.</p>\n<p>\"Kami sangat senang dapat memberikan kesempatan bagi generasi muda untuk lebih mengenal dunia kehutanan dari dekat,\" ungkap koordinator program dari Perhutani KPH Bandung Selatan. \"Semoga pengalaman ini dapat menginspirasi mereka untuk terlibat lebih dalam lestarikan lingkungan.\"</p>",
+      "category": "Pendidikan",
+      "image": "img/berita1.jpg",
+      "date": "2026-02-09",
+      "author": "Adi Suryanto",
+      "dateFormatted": "9 Februari 2026",
+      "url": "berita1.html"
+    },
+    {
+      "id": 2,
+      "title": "Peringatan Serikat Karyawan Perhutani Bandung Selatan Dibarengi Bantuan Bibit",
+      "excerpt": "Serikat karyawan Perhutani Bandung Selatan mengadakan peringatan dengan kegiatan tanam pohon sebagai bentuk komitmen terhadap penghijauan dan pelestarian lingkungan...",
+      "content": "<p>Serikat karyawan Perhutani Bandung Selatan mengadakan peringatan hari jadi organisasi dengan menggelar acara tanam pohon secara bersama-sama. Kegiatan ini merupakan wujud kepedulian karyawan terhadap pelestarian lingkungan dan pengingat pentingnya menjaga kelestarian hutan untuk generasi mendatang.</p>\n<p>Dalam acara yang berlangsung meriah ini, para karyawan menanam berbagai macam pohon produktif dan pohon buah, dengan target penanaman sebanyak 500 pohon. Selain menanam pohon sendiri, mereka juga menyiapkan bibit-bibit unggul untuk dibagikan kepada masyarakat sekitar kawasan hutan.</p>\n<p>Kepala KPH hadir memberikan motivasi kepada seluruh peserta, mengatakan bahwa setiap pohon yang ditanam merupakan investasi untuk masa depan yang lebih hijau dan berkelanjutan. \"Mari bersama-sama menjaga kelestarian hutan, karena kelestarian hutan adalah kelestarian kehidupan kita semua,\" katanya.</p>",
+      "category": "Lingkungan",
+      "image": "img/berita2.jpg",
+      "date": "2026-02-13",
+      "author": "Budi Hartono",
+      "dateFormatted": "13 Februari 2026",
+      "url": "berita2.html"
+    },
+    {
+      "id": 3,
+      "title": "Perhutani Dampingi Kunjungan Menteri Lingkungan Hidup ke Hulu Sungai Citarum",
+      "excerpt": "Sebagai bagian dari komitmen pemerintah dalam pengelolaan DAS Citarum, Menteri Lingkungan Hidup mengunjungi kawasan hulu Sungai Citarum yang dikelola oleh Perhutani...",
+      "content": "<p>Menteri Lingkungan Hidup dan Kehutanan mengunjungi kawasan hulu Sungai Citarum untuk melihat langsung upaya pelestarian dan pengelolaan hutan yang dilakukan oleh Perhutani. Kunjungan ini merupakan bagian dari program evaluasi dan monitoring terhadap upaya konservasi DAS Citarum sebagai salah satu sungai terpenting di Jawa Barat.</p>\n<p>Dalam kunjungannya, Menteri melihat berbagai program unggulan Perhutani di kawasan hulu, termasuk program penghijauan, konservasi tanah dan air, serta pemberdayaan masyarakat lokal. Menteri juga memberikan apresiasi tinggi terhadap komitmen Perhutani dalam menjaga kelestarian kawasan hutan yang menjadi sumber air bagi jutaan penduduk di wilayah Bandung, Jakarta, dan sekitarnya.</p>\n<p>\"Peran Perhutani dalam menjaga kelestarian DAS Citarum sangat krusial. Kami akan terus mendukung upaya-upaya yang telah dilakukan oleh Perhutani untuk menjaga ekosistem hutan yang sehat dan berkelanjutan,\" pesan Menteri kepada jajaran Perhutani dan masyarakat lokal.</p>",
+      "category": "Konservasi",
+      "image": "img/berita3.jpg",
+      "date": "2026-02-16",
+      "author": "Citra Dewi",
+      "dateFormatted": "16 Februari 2026",
+      "url": "berita3.html"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "articles": [
+    {
+      "title": "Test Article 1",
+      "content": "This is test content 1",
+      "category": "Test",
+      "image": "test.jpg",
+      "date": "2026-02-19",
+      "author": "Test Author",
+      "excerpt": "Test excerpt",
+      "slug": "test-article-1"
+    },
+    {
+      "title": "Test Article 2",
+      "content": "This is test content 2",
+      "category": "Test",
+      "image": "test2.jpg",
+      "date": "2026-02-19",
+      "author": "Test Author",
+      "excerpt": "Test excerpt 2"
+    }
+  ]
+}

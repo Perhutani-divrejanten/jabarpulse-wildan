@@ -1,0 +1,1374 @@
+/* Custom Pagination Styling for news.html (gray box like Baca Selengkapnya) */
+.pagination .page-item .page-link {
+    color: #353535;
+    border: 1px solid #353535;
+    background: #fff;
+    border-radius: 6px;
+    margin: 0 2px;
+    transition: background 0.2s, color 0.2s;
+}
+.pagination .page-item.active .page-link,
+.pagination .page-item .page-link:hover,
+.pagination .page-item .page-link:focus {
+    color: #fff;
+    background: linear-gradient(135deg, #d4a017 0%, #ff8c00 100%);
+    border-color: #ff8c00;
+    box-shadow: 0 0 8px rgba(255, 140, 0, 0.3);
+}
+.pagination .page-item.disabled .page-link {
+    color: #aaa;
+    background: #f5f5f5;
+    border-color: #eee;
+}
+
+/* Category Filter Button Styling (gray like Baca Selengkapnya) */
+#category-filter .btn {
+    color: #353535 !important;
+    background: #fff !important;
+    border: 1px solid #353535 !important;
+    border-radius: 6px;
+    margin: 0 4px 6px 0;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+}
+#category-filter .btn.active,
+#category-filter .btn:active {
+    color: #fff !important;
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%) !important;
+    border-color: #ff4c42 !important;
+    box-shadow: 0 0 12px rgba(255, 76, 66, 0.5) !important;
+}
+#category-filter .btn:focus {
+    box-shadow: none !important;
+}
+
+.pagination {
+    margin-top: 2rem;
+}
+
+/* 16:9 aspect ratio for news images */
+.ratio-16x9 {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 ratio */
+    overflow: hidden;
+}
+.ratio-16x9 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/**********************************/
+/********** General CSS ***********/
+/**********************************/
+body {
+    color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(135deg, #ffffff 0%, #fffbf0 100%);
+}
+
+a {
+    color: #ff8c00;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #ff4c42;
+    outline: none;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+p {
+    color: #353535;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #353535;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #353535;
+    color: #ffffff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+
+.back-to-top:hover {
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%);
+}
+
+.back-to-top i {
+    padding-top: 12px;
+    color: #ffffff;
+}
+
+
+/**********************************/
+/********* Form Input CSS *********/
+/**********************************/
+.form-control,
+.custom-select {
+    width: 100%;
+    height: 35px;
+    padding: 0 15px;
+    color: #666666;
+    border: 1px solid #353535;
+    border-radius: 0;
+    margin-bottom: 15px
+}
+
+.form-control:focus,
+.custom-select:focus {
+    box-shadow: 0 0 6px rgba(255, 140, 0, 0.3);
+    border-color: #ff8c00;
+}
+
+.custom-radio,
+.custom-checkbox {
+    margin-bottom: 15px;
+}
+
+.custom-radio .custom-control-label::before,
+.custom-checkbox .custom-control-label::before {
+    border-color: #353535;
+    border-radius: 0;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before,
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    color: #ffffff;
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%);
+}
+
+/* Override Bootstrap button default styles */
+.btn {
+    color: #353535 !important;
+    background: #ffffff !important;
+    border: 1px solid #353535 !important;
+    border-radius: 0;
+    display: inline-block;
+}
+
+.btn:hover {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%) !important;
+    border-color: #ff4c42 !important;
+    box-shadow: 0 4px 8px rgba(255, 76, 66, 0.3) !important;
+}
+
+.btn.active {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%) !important;
+    border-color: #ff4c42 !important;
+}
+
+button.btn {
+    color: #353535 !important;
+    background: #ffffff !important;
+    border: 1px solid #353535 !important;
+    border-radius: 0;
+}
+
+button.btn:hover {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%) !important;
+    border-color: #ff4c42 !important;
+}
+
+button.btn.active {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%) !important;
+    border-color: #ff4c42 !important;
+}
+
+a.btn {
+    color: #353535 !important;
+    background: #ffffff !important;
+    border: 1px solid #353535 !important;
+}
+
+a.btn:hover {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%) !important;
+    border-color: #ff4c42 !important;
+    text-decoration: none;
+}
+
+a.btn.active {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%) !important;
+    border-color: #ff4c42 !important;
+}
+
+
+/**********************************/
+/********* Top Header CSS *********/
+/**********************************/
+.top-header {
+    padding: 15px 0;
+    background: linear-gradient(90deg, #ffffff 0%, #fffbf0 100%);
+    border-bottom: 2px solid #d4a017;
+}
+
+.top-header .logo {
+    text-align: left;
+    overflow: hidden;
+}
+
+.top-header .logo a img {
+    max-width: 100%;
+    max-height: 60px;
+}
+
+/* Logo Text Styling - JabarPulse */
+.top-header .logo .logo-text {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+    /* OPSI 1 (RECOMMENDED): Emas → Oranye → Merah - Warm & Energy */
+    background: linear-gradient(135deg, #d4a017 0%, #ff8c00 35%, #ff4c42 70%, #d4a017 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+    letter-spacing: 0.5px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    filter: drop-shadow(2px 2px 4px rgba(212, 160, 23, 0.3));
+    /* Alternative gradients - uncomment to use:
+    
+    OPSI 2 (Professional): Emas → Biru Tua
+    background: linear-gradient(135deg, #d4a017 0%, #ff8c00 40%, #2c3e50 100%);
+    
+    OPSI 3 (Vibrant): Emas → Oranye → Merah → Pink  
+    background: linear-gradient(90deg, #d4a017 0%, #ff8c00 25%, #ff6b35 50%, #f72585 100%);
+    
+    OPSI 4 (Bold): Emas → Merah → Ungu
+    background: linear-gradient(135deg, #d4a017 0%, #ff4c42 50%, #9b59b6 100%);
+    */
+}
+
+.top-header .logo a .logo-text {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.top-header .logo a:hover .logo-text {
+    filter: drop-shadow(3px 3px 6px rgba(212, 160, 23, 0.5));
+    transform: scale(1.02);
+}
+
+.top-header .search {
+    width: 100%;
+}
+
+.top-header .search input[type=text] {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    color: #666666;
+    border: 1px solid #353535;
+}
+
+.top-header .search input[type=text]:focus {
+    border-color: #ff8c00;
+    box-shadow: 0 0 6px rgba(255, 140, 0, 0.2);
+}
+
+.top-header .search button {
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    top: 1px;
+    right: 16px;
+    padding: 0 15px;
+    border: none;
+    background: none;
+    color: #353535;
+}
+
+.top-header .search button:hover {
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%);
+    color: #ffffff;
+}
+
+.top-header .social {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.top-header .social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 1px 0;
+    text-align: center;
+    font-size: 22px;
+    border: 1px solid #353535;
+}
+
+.top-header .social a:hover {
+    background: #FF8C00;
+    border: 1px solid #FF8C00;
+}
+
+.top-header .social a i {
+    color: #353535;
+}
+
+.top-header .social a:hover i {
+    color: #ffffff;
+}
+
+/* ===== LOGIN TOP HEADER ===== */
+.top-header .login {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-header .login a {
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.top-header .login a:hover {
+    color: #ff4c42;
+    font-weight: 600;
+}
+
+.top-header .login span {
+    margin: 0 6px;
+    color: #353535;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .top-header {
+        max-height: 90px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .top-header .logo,
+    .top-header .search,
+    .top-header .social {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .top-header .social {
+        margin-bottom: 0;
+    }
+}
+
+
+/**********************************/
+/********* Header Nav CSS *********/
+/**********************************/
+.header {
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+}
+
+.header.header-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.header .navbar {
+    height: 100%;
+    padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    padding: 10px 10px 8px 10px;
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    background: linear-gradient(90deg, rgba(255, 140, 0, 0.15), rgba(255, 76, 66, 0.1));
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, #ff8c00, #ff4c42) 1;
+    transition: all 0.3s ease;
+}
+
+.header .dropdown-menu {
+    margin-top: 0;
+    border: 0;
+    border-radius: 0;
+    background: #f8f9fa;
+}
+
+@media (min-width: 768px) {
+    .header,
+    .header .navbar {
+        background: linear-gradient(90deg, #2c2c2c 0%, #353535 100%) !important;
+    }
+    
+    .header .navbar-brand {
+        display: none;
+    }
+    
+    .header a.nav-link {
+        padding: 8px 15px;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 768px) {   
+    .header,
+    .header .navbar {
+        background: linear-gradient(90deg, #2c2c2c 0%, #333333 100%) !important;
+    }
+    
+    .header a.nav-link {
+        padding: 5px;
+    }
+    
+    .header .dropdown-menu {
+        box-shadow: none;
+    }
+}
+
+
+/**********************************/
+/********** Top News CSS **********/
+/**********************************/
+.top-news {
+    position: relative;
+    width: 100%;
+    padding: 30px 0 0 0;
+}
+
+.top-news .col-md-6 {
+    margin-bottom: 30px;
+}
+
+.top-news .tn-img {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16 / 9; /* Rasio 16:9 untuk semua gambar */
+}
+
+.top-news .tn-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Gambar akan memenuhi container tanpa distorsi */
+    object-position: center; /* Posisi gambar di tengah */
+}
+
+.top-news .tn-img:hover img {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.top-news .tn-content {
+    position: absolute;
+    top: 0; 
+    right: 0;
+    bottom: 0; 
+    left: 0;
+    padding: 15px 10px 15px 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .3), rgba(0, 0, 0, .9));
+    display: flex;
+    align-items: flex-end;
+}
+
+.top-news .tn-content a.tn-date{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+
+.top-news .tn-content a.tn-date i {
+    margin-right: 5px;
+}
+
+.top-news .tn-content a.tn-date:hover {
+    text-decoration: underline;
+}
+
+.top-news .tn-content a.tn-title {
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.top-news .tn-left .tn-content a.tn-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.top-news .tn-content a.tn-title:hover {
+    color: #ff8c00;
+    text-shadow: 0 0 8px rgba(255, 140, 0, 0.3);
+}
+
+
+/**********************************/
+/******* Category News CSS ********/
+/**********************************/
+.cat-news {
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+.cat-news .col-md-6 {
+    margin-bottom: 30px;
+}
+
+.cat-news h2 {
+    color: #353535;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cat-news h2 i {
+    font-size: 28px;
+    background: linear-gradient(135deg, #d4a017 0%, #ff8c00 50%, #ff4c42 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+    display: inline-block;
+    flex-shrink: 0;
+    width: 28px;
+    filter: drop-shadow(2px 2px 4px rgba(255, 76, 66, 0.2));
+}
+
+.cat-news .cn-img {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16 / 9; /* Rasio 16:9 untuk semua gambar category */
+}
+
+.cat-news .cn-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Gambar akan memenuhi container tanpa distorsi */
+    object-position: center; /* Posisi gambar di tengah */
+}
+
+.cat-news .cn-img:hover img {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.cat-news .cn-content {
+    position: absolute;
+    top: 0; 
+    right: 0;
+    bottom: 0; 
+    left: 0;
+    padding: 15px 10px 15px 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .3), rgba(0, 0, 0, .9));
+    display: flex;
+    align-items: flex-end;
+}
+
+.cat-news .cn-content a.cn-date {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+
+.cat-news .cn-content a.cn-date i {
+    margin-right: 5px;
+}
+
+.cat-news .cn-content a.cn-date:hover {
+    text-decoration: underline;
+}
+
+.cat-news .cn-content a.cn-title {
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.cat-news .cn-content a.cn-title:hover {
+    color: #ff8c00;
+    text-shadow: 0 0 8px rgba(255, 140, 0, 0.3);
+}
+
+.cat-news .slick-prev,
+.cat-news .slick-next {
+    top: -35px;
+    width: 28px;
+    height: 28px;
+    z-index: 1;
+    transition: .5s;
+    color: #ffffff;
+    background: #353535;
+}
+
+.cat-news .slick-prev {
+    left: calc(100% - 85px);
+}
+
+.cat-news .slick-next {
+    right: 14px;
+}
+
+.cat-news .slick-prev:hover,
+.cat-news .slick-prev:focus,
+.cat-news .slick-next:hover,
+.cat-news .slick-next:focus {
+    color: #ffffff;
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%);
+}
+
+.cat-news .slick-prev::before,
+.cat-news .slick-next::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 18px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.cat-news .slick-prev::before {
+    content: "\f104";
+}
+
+.cat-news .slick-next::before {
+    content: "\f105";
+}
+
+
+/**********************************/
+/********** Main News CSS *********/
+/**********************************/
+.main-news {
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+.main-news .col-md-6,
+.main-news .col-md-12 {
+    margin-bottom: 30px;
+}
+
+.main-news h2 {
+    color: #353535;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.main-news h2 i {
+    font-size: 28px;
+    background: linear-gradient(135deg, #d4a017 0%, #ff8c00 50%, #ff4c42 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+    display: inline-block;
+    flex-shrink: 0;
+    width: 28px;
+    filter: drop-shadow(2px 2px 4px rgba(255, 76, 66, 0.2));
+}
+
+.main-news .mn-img {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16 / 9; /* Rasio 16:9 untuk gambar utama */
+}
+
+.main-news .mn-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Gambar akan memenuhi container tanpa distorsi */
+    object-position: center; /* Posisi gambar di tengah */
+}
+
+.main-news .mn-content {
+    position: relative;
+    width: 100%;
+    padding: 15px 0 0 0;
+}
+
+.main-news .mn-content a.mn-title {
+    display: block;
+    width: 100%;
+    color: #353535;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+.main-news .mn-content a.mn-title:hover {
+    color: #ff4c42;
+    font-weight: 600;
+}
+
+.main-news .mn-content a.mn-date {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+
+.main-news .mn-content a.mn-date i {
+    margin-right: 5px;
+}
+
+.main-news .mn-content a.mn-date:hover {
+    text-decoration: underline;
+}
+
+.main-news .mn-content p {
+    margin: 0;
+}
+
+.main-news .mn-list {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.main-news .mn-list .mn-img {
+    position: relative;
+    width: 100px;
+    height: 75px; /* Tinggi tetap untuk gambar list */
+    margin-right: 15px;
+    float: left;
+    overflow: hidden;
+}
+
+.main-news .mn-list .mn-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Gambar akan memenuhi container tanpa distorsi */
+    object-position: center; /* Posisi gambar di tengah */
+}
+
+.main-news .mn-list .mn-content {
+    position: relative;
+    float: left;
+    width: calc(100% - 115px);
+    padding: 0;
+}
+
+.main-news .mn-list .mn-content a.mn-title {
+    display: block;
+    width: 100%;
+    color: #353535;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.main-news .mn-list .mn-content a.mn-title:hover {
+    color: #ff8c00;
+}
+
+.main-news .mn-list .mn-content a.mn-date {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+
+.main-news .mn-list .mn-content a.mn-date i {
+    margin-right: 5px;
+}
+
+.main-news .mn-list .mn-content a.mn-date:hover {
+    text-decoration: underline;
+}
+
+/**********************************/
+/*********** Sidebar CSS **********/
+/**********************************/
+.sidebar {
+    position: relative;
+    width: 100%;
+}
+
+.sidebar .sidebar-widget {
+    position: relative;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.sidebar .sidebar-widget h2 {
+    color: #353535;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-left: 4px solid #d4a017;
+    padding-left: 15px;
+}
+
+.sidebar .sidebar-widget h2 i {
+    font-size: 28px;
+    background: linear-gradient(135deg, #d4a017 0%, #ff8c00 50%, #ff4c42 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+    display: inline-block;
+    flex-shrink: 0;
+    width: 28px;
+    filter: drop-shadow(2px 2px 4px rgba(255, 76, 66, 0.2));
+}
+
+.sidebar .sidebar-widget .category {
+    position: relative;
+}
+
+.sidebar .sidebar-widget .category .fa-ul {
+    margin-left: 23px;
+}
+
+.sidebar .sidebar-widget .category .fa-ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar .sidebar-widget .category .fa-ul li i {
+    color: #353535;
+}
+
+.sidebar .sidebar-widget .category .fa-ul li a {
+    color: #353535;
+}
+
+.sidebar .sidebar-widget .category .fa-ul li a:hover {
+    color: #ff4c42;
+    font-weight: 600;
+}
+
+.sidebar .sidebar-widget .tags {
+    position: relative;
+}
+
+.sidebar .sidebar-widget .tags a {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    color: #353535;
+    background: #ffffff;
+    border: 1px solid #353535;
+}
+
+.sidebar .sidebar-widget .tags a:hover {
+    color: #ffffff;
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%);
+    border: 1px solid #ff4c42;
+}
+
+.sidebar .sidebar-widget .image a {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sidebar .sidebar-widget .image img {
+    max-width: 100%;
+    transition: .3s;
+}
+
+.sidebar .sidebar-widget .image img:hover {
+    transform: scale(1.1);
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+
+/**********************************/
+/********* Breadcrumb CSS *********/
+/**********************************/
+.breadcrumb-wrap {
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+}
+
+.breadcrumb-wrap .breadcrumb {
+    margin: 25px 0 0 0;
+    padding: 0;
+    background: none;
+}
+
+.breadcrumb-wrap .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    color: #353535;
+}
+
+.breadcrumb-wrap .breadcrumb .breadcrumb-item.active {
+    color: #353535;
+}
+
+
+/**********************************/
+/********* Single News CSS ********/
+/**********************************/
+.single-news {
+    position: relative;
+    width: 100%;
+    padding: 25px 0 0 0;
+}
+
+.single-news .sn-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.single-news .sn-img img {
+    width: 100%;
+}
+
+.single-news .sn-content {
+    position: relative;
+    width: 100%;
+    padding: 30px 0 30px 0;
+}
+
+.single-news .sn-content a.sn-title {
+    display: block;
+    width: 100%;
+    color: #353535;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+.single-news .sn-content a.sn-title:hover {
+    color: #ff4c42;
+    font-weight: 600;
+}
+
+.single-news .sn-content a.sn-date {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+
+.single-news .sn-content a.sn-date i {
+    margin-right: 5px;
+}
+
+.single-news .sn-content a.sn-date:hover {
+    text-decoration: underline;
+}
+
+
+/**********************************/
+/********** Contact CSS ***********/
+/**********************************/
+.contact {
+    position: relative;
+    padding: 25px 0 45px 0;
+}
+
+.contact .map {
+    position: relative;
+    width: 100%;
+}
+
+.contact .map iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+}
+
+
+.contact .contact-info h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact .contact-info h4 i {
+    color: #353535;
+    margin-right: 5px;
+}
+
+.contact .social {
+    position: relative;
+    width: 100%;
+}
+
+.contact .social a {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    width: 40px;
+    height: 40px;
+    padding: 3px 0;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #353535;
+}
+
+.contact .social a i {
+    color: #353535;
+}
+
+.contact .social a:hover {
+    background: #FF8C00;
+    border-color: #FF8C00;
+}
+
+.contact .social a:hover i {
+    color: #ffffff;
+}
+
+.contact .form {
+    color: #666666;
+}
+
+@media (max-width: 767.98px) {
+    .contact .form {
+        margin-bottom: 30px;
+    }
+}
+
+
+/**********************************/
+/********** Footer CSS ************/
+/**********************************/
+/* Footer Social Only */
+.footer {
+    margin-top: 20px;
+}
+
+.footer-social-only {
+    background: linear-gradient(90deg, #353535 0%, #3d3d3d 100%);
+    padding: 30px 0;
+    border-top: 3px solid #d4a017;
+}
+
+.footer-social-only .social a {
+    display: inline-block;
+    margin: 0 8px;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: 0.3s;
+}
+
+.footer-social-only .social a:hover {
+    background: #FF8C00;
+    color: #ffffff;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    background: linear-gradient(90deg, #111111 0%, #1a1a1a 100%);
+    padding: 20px 0;
+    border-top: 2px solid #d4a017;
+}
+
+.footer-bottom .footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-bottom .footer-links a {
+    color: #cccc;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.footer-bottom .footer-links a:hover {
+    color: #ff8c00;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.footer-bottom .footer-links span {
+    color: #666666;
+}
+
+.footer-bottom .copyright {
+    color: #888888;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* default: berita disembunyikan dulu */
+.mn-list {
+    display: none;
+}
+
+/* wrapper tombol muat lainnya */
+.load-more-wrapper {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 200px;
+}
+
+/* tombol */
+.load-more {
+    padding: 12px 32px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #d4a017 0%, #ff8c00 50%, #ff4c42 100%);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 76, 66, 0.3);
+}
+
+.load-more:hover {
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 50%, #d4a017 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(255, 76, 66, 0.4);
+}
+
+/* ===== FINAL BUTTON OVERRIDES ===== */
+/* Force ALL buttons to be gray, override Bootstrap completely */
+.btn,
+button.btn,
+.btn-sm,
+button.btn-sm,
+a.btn,
+a.btn-sm {
+    color: #353535 !important;
+    background-color: #ffffff !important;
+    border-color: #353535 !important;
+    border: 1px solid #353535 !important;
+}
+
+.btn:hover,
+button.btn:hover,
+a.btn:hover {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%) !important;
+    border-color: #ff4c42 !important;
+    box-shadow: 0 4px 8px rgba(255, 76, 66, 0.3) !important;
+}
+
+.btn.active,
+button.btn.active,
+.btn:active,
+button.btn:active,
+a.btn.active,
+a.btn:active {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4c42 100%) !important;
+    border-color: #ff4c42 !important;
+    color: #ffffff !important;
+    background-color: #3c8bdf !important;
+    border-color: #3c8bdf !important;
+}
+
+.btn:focus,
+button.btn:focus,
+a.btn:focus {
+    color: #353535 !important;
+    background-color: #ffffff !important;
+    border-color: #353535 !important;
+    box-shadow: none !important;
+}
+
+/* Override Bootstrap color variants */
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.active,
+button.btn-primary,
+a.btn-primary {
+    color: #353535 !important;
+    background-color: #ffffff !important;
+    border-color: #353535 !important;
+}
+
+.btn-primary:hover,
+button.btn-primary:hover,
+a.btn-primary:hover {
+    color: #ffffff !important;
+    background-color: #d4a017 !important;
+    border-color: #d4a017 !important;
+}
+
+/*==================================*/
+/*** JabarPulse Theme Enhancements **/
+/*==================================*/
+
+/* H2 Styling Enhancement with Gradient Underline */
+.cat-news h2,
+.main-news h2,
+.sidebar .sidebar-widget h2 {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.cat-news h2::after,
+.main-news h2::after,
+.sidebar .sidebar-widget h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, #d4a017 0%, #ff8c00 100%);
+    border-radius: 2px;
+}
+
+/* Card-like styling for news items */
+.main-news .mn-img,
+.cat-news .cn-img,
+.top-news .tn-img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.main-news .mn-img:hover,
+.cat-news .cn-img:hover,
+.top-news .tn-img:hover {
+    box-shadow: 0 8px 16px rgba(212, 160, 23, 0.2);
+    transform: translateY(-4px);
+}
+
+/* Accent border styling */
+.sidebar .sidebar-widget {
+    border-left: 4px solid #d4a017;
+    padding-left: 15px;
+}
+
+/* Read More Link styling */
+.read-more {
+    display: inline-block;
+    color: #d4a017;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.read-more::after {
+    content: ' →';
+    margin-left: 5px;
+    transition: margin-left 0.3s ease;
+}
+
+.read-more:hover::after {
+    margin-left: 10px;
+}
+
+/* Heading Icon Animation */
+.cat-news h2 i,
+.main-news h2 i,
+.sidebar .sidebar-widget h2 i {
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+/* Section separators with gradient */
+.section-divider {
+    height: 4px;
+    background: linear-gradient(90deg, transparent, #d4a017, transparent);
+    margin: 30px 0;
+    border-radius: 2px;
+}
+
+/* Enhanced button with gradient on hover */
+.btn-golden {
+    background: linear-gradient(135deg, #d4a017 0%, #ff8c00 100%);
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(212, 160, 23, 0.3);
+}
+
+.btn-golden:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(212, 160, 23, 0.5);
+    color: #ffffff;
+}
+

@@ -1,0 +1,23 @@
+{
+  "name": "warta-jabar-generator",
+  "version": "2.0.0",
+  "description": "Article Generator for Warta Jabar using Google Apps Script Web App",
+  "main": "tools/generate.js",
+  "scripts": {
+    "generate": "node tools/generate.js",
+    "dev": "node tools/generate.js"
+  },
+  "keywords": [
+    "google-apps-script",
+    "article-generator",
+    "cms",
+    "static-site"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
