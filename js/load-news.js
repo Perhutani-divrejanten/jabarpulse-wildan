@@ -112,7 +112,7 @@ async function loadArticlesJSON() {
  */
 function getManualArticles() { return [
   {
-    "id": 1001,
+    "id": 1,
     "title": "Perhutani KPH Bandung Selatan Dukung Program PPL Siswa SMA Muhammadiyah 4 Bandung",
     "excerpt": "Perhutani KPH Bandung Selatan menerima siswa SMA Muhammadiyah 4 Bandung untuk PPL, mendukung pembelajaran aplikatif dan pengenalan lingkungan kerja.",
     "content": "Perum Perhutani KPH Bandung Selatan menerima siswa kelas XI SMA Muhammadiyah 4 Kota Bandung untuk Praktik Pengalaman Lapangan (PPL). Kegiatan ini bertujuan memberikan pengalaman kerja nyata dan pengenalan lingkungan kerja. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para siswa diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -124,7 +124,7 @@ function getManualArticles() { return [
     "url": "berita1.html"
   },
   {
-    "id": 1002,
+    "id": 2,
     "title": "Peringatan Serikat Karyawan Perhutani Bandung Selatan Dibarengi Bantuan Bibit",
     "excerpt": "Serikat Karyawan Perhutani Bandung Selatan memperingati hari jadi ke-21 dengan syukuran dan penyerahan bantuan bibit buah-buahan.",
     "content": "Serikat Karyawan (Sekar) Perum Perhutani KPH Bandung Selatan memperingati hari jadi ke-21 dengan tema 'Perusahaan Eksis, Karyawan Sejahtera'. Acara diadakan di aula kantor KPH Bandung Selatan dengan syukuran pemotongan tumpeng dan penyerahan bantuan bibit buah-buahan untuk masyarakat sekitar. Kegiatan dihadiri jajaran manajemen, pengurus Sekar, dan karyawan. Sekar menjadi wadah aspirasi karyawan dan mitra manajemen untuk memajukan perusahaan dan kesejahteraan karyawan.",
@@ -136,7 +136,7 @@ function getManualArticles() { return [
     "url": "berita2.html"
   },
   {
-    "id": 1003,
+    "id": 3,
     "title": "Perhutani Dampingi Kunjungan Menteri Lingkungan Hidup ke Hulu Sungai Citarum",
     "excerpt": "Menteri Lingkungan Hidup RI melakukan kunjungan kerja ke hulu Sungai Citarum, didampingi Perhutani KPH Bandung Selatan dan jajaran.",
     "content": "Menteri Lingkungan Hidup RI, Hanif Faisol Nurofiq, melakukan kunjungan kerja ke kawasan hulu Sungai Citarum/Situ Cisanti, didampingi jajaran Perhutani Jawa Barat dan Banten serta KPH Bandung Selatan. Kunjungan membahas rencana intervensi pengelolaan lingkungan hidup dengan pendekatan sosial dan kolaborasi lintas pemangku kepentingan. Perhutani KPH Bandung Selatan mendukung penuh upaya pelestarian kawasan hulu Sungai Citarum.",
@@ -148,7 +148,7 @@ function getManualArticles() { return [
     "url": "berita3.html"
   },
   {
-    "id": 1004,
+    "id": -996,
     "title": "Perhutani Bandung Utara dan Komunitas Penat Lakukan Aksi Nyata Tanam Pohon",
     "excerpt": "Perhutani Bandung Utara bersama Komunitas Penat melakukan aksi penanaman pohon di Curug Cibanban untuk menjaga sumber mata air dan ekosistem.",
     "content": "Perhutani KPH Bandung Utara melaksanakan penanaman pohon bersama Komunitas Pendaki Napas Tua (Penat) di wilayah hutan RPH Cibodas, Manglayang Barat, blok Curug Cibanban. Penanaman ratusan bibit pohon seperti damar, rasamala, pinus, puspa, dan mahoni bertujuan menjaga sumber mata air dan memperkuat ketahanan ekosistem. Kegiatan ini menjadi bentuk kepedulian nyata terhadap pelestarian kawasan hutan dan sumber air.",
@@ -160,7 +160,7 @@ function getManualArticles() { return [
     "url": "berita4.html"
   },
   {
-    "id": 1005,
+    "id": -995,
     "title": "Perhutani Terima Kegiatan PKL Mahasiswi Universitas Terbuka di Bandung",
     "excerpt": "Perhutani KPH Bandung Utara menerima kegiatan PKL mahasiswi Universitas Terbuka, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perum Perhutani KPH Bandung Utara menerima kegiatan Praktek Kerja Lapang (PKL) mahasiswi Universitas Terbuka. Program PKL berlangsung satu bulan penuh, memberi kesempatan memperluas wawasan dalam pengelolaan hutan, dari teori hingga praktik lapangan. Perhutani berkomitmen mendukung mahasiswa memperkaya pemahaman kehutanan melalui pengalaman praktis.",
@@ -172,7 +172,7 @@ function getManualArticles() { return [
     "url": "berita5.html"
   },
   {
-    "id": 1006,
+    "id": -994,
     "title": "Perhutani Bandung Utara Lepas Mahasiswa UNPAS Usai Rampungkan PKL",
     "excerpt": "Perhutani Bandung Utara resmi melepas mahasiswa UNPAS yang telah menyelesaikan PKL, mempererat hubungan dunia akademik dan Perhutani.",
     "content": "Perum Perhutani KPH Bandung Utara resmi melepas dua mahasiswa Universitas Pasundan (UNPAS) Bandung yang telah menyelesaikan PKL selama tiga bulan. Administratur KPH Bandung Utara menyampaikan apresiasi atas dedikasi mahasiswa dan berharap pengalaman PKL menjadi bekal berharga untuk karier di masa depan. Kegiatan ini mempererat hubungan kerja sama antara dunia akademik dan Perhutani.",
@@ -184,7 +184,7 @@ function getManualArticles() { return [
     "url": "berita6.html"
   },
   {
-    "id": 1007,
+    "id": -993,
     "title": "Perhutani KPH Bandung Utara Perkuat Koordinasi Pengelolaan Wisata Hutan dengan Mitra",
     "excerpt": "Perhutani KPH Bandung Utara menyelenggarakan koordinasi dengan mitra kelola wisata, memperkuat sinergi pengelolaan hutan dan pemanfaatan kawasan.",
     "content": "Perum Perhutani KPH Bandung Utara menyelenggarakan kegiatan koordinasi dengan mitra kelola wisata di wilayah kerja KPH Bandung Utara. Kegiatan diikuti mitra kelola wisata dari empat BKPH, membahas komitmen bersama menjaga kelestarian hutan, perawatan tanaman, pengamanan kawasan, dan optimalisasi pemanfaatan hasil hutan secara berkelanjutan.",
@@ -196,7 +196,7 @@ function getManualArticles() { return [
     "url": "berita7.html"
   },
   {
-    "id": 1008,
+    "id": -992,
     "title": "Perhutani KPH Bandung Utara Dukung Aksi Penanaman 'Rindu Rindang Kota Bandung'",
     "excerpt": "Perhutani KPH Bandung Utara melalui Saka Wanabakti Kota Bandung turut berpartisipasi dalam aksi penanaman 'Rindu Rindang Kota Bandung'.",
     "content": "Perum Perhutani KPH Bandung Utara melalui Saka Wanabakti Kota Bandung berpartisipasi dalam aksi penanaman 'Rindu Rindang Kota Bandung: Kolaborasi Kami untuk Bumi'. Kegiatan ini bertujuan meningkatkan indeks hijau dan daya dukung ekologi perkotaan, memperkuat kesadaran masyarakat akan pelestarian lingkungan, dan melibatkan berbagai unsur lintas sektor.",
@@ -208,7 +208,7 @@ function getManualArticles() { return [
     "url": "berita8.html"
   },
   {
-    "id": 1009,
+    "id": -991,
     "title": "Perhutani Bersama Stakeholder Lakukan Patroli Siaga Bencana Alam di Cikole",
     "excerpt": "Perhutani KPH Bandung Utara melaksanakan patroli gabungan untuk mengantisipasi gangguan keamanan hutan dan potensi bencana alam di Cikole.",
     "content": "Perum Perhutani KPH Bandung Utara melaksanakan patroli gabungan untuk mengantisipasi gangguan keamanan hutan, potensi bencana alam, dan risiko pohon tumbang di wilayah hutan RPH Lembang, BKPH Lembang, Desa Cikole, Kecamatan Lembang. Kegiatan diikuti jajaran Perhutani, Polri, dan pemerintah desa, bertujuan memberikan pelayanan kepada masyarakat dan imbauan terkait potensi bencana alam.",
@@ -220,7 +220,7 @@ function getManualArticles() { return [
     "url": "berita9.html"
   },
   {
-    "id": 1010,
+    "id": -990,
     "title": "Perhutani Bersama Stakeholder Tekan PKS Pengelolaan Wisata Ciwangun Indah Camp Di Bandung",
     "excerpt": "Perhutani KPH Bandung Utara menandatangani PKS dengan PT Ciwangun Indah Cemerlang untuk pengelolaan Wisata Ciwangun Indah Camp.",
     "content": "Perhutani KPH Bandung Utara menandatangani Perjanjian Kerja Sama (PKS) dengan PT Ciwangun Indah Cemerlang untuk pengelolaan Wisata Ciwangun Indah Camp di Petak 62A, E, dan J RPH Cisarua, BKPH Lembang, Desa Cihanjuang Rahayu, Kecamatan Cisarua, Kabupaten Bandung Barat. PKS bertujuan pengelolaan wisata alam berbasis kemitraan bisnis.",
@@ -232,7 +232,7 @@ function getManualArticles() { return [
     "url": "berita10.html"
   },
   {
-    "id": 1011,
+    "id": -989,
     "title": "Perhutani KPH Bandung Utara Perkuat Sinergi dengan TNI Dukung Pembentukan Koperasi Kelurahan Merah Putih",
     "excerpt": "Perhutani KPH Bandung Utara melaksanakan koordinasi dengan TNI mendukung pembentukan Koperasi Kelurahan Merah Putih.",
     "content": "Perhutani KPH Bandung Utara melaksanakan koordinasi dengan Kodim 0618/Kota Bandung untuk pengajuan proses Koperasi Kelurahan Merah Putih (KKMP). Kegiatan dihadiri jajaran Perhutani dan TNI, membahas mekanisme pengajuan, tujuan pendirian koperasi, dan harapan manfaat ekonomi bagi masyarakat desa sekitar hutan.",
@@ -244,7 +244,7 @@ function getManualArticles() { return [
     "url": "berita11.html"
   },
   {
-    "id": 1012,
+    "id": -988,
     "title": "Perhutani KPH Banten Gelar Job Training Tebangan 2026",
     "excerpt": "Perhutani KPH Banten menggelar Job Training Tebangan untuk meningkatkan pemahaman dan keterampilan kerja petugas dan mitra kerja.",
     "content": "Perhutani KPH Banten menggelar Job Training Tebangan untuk mengawali proses produksi tebangan Tahun 2026 di wilayah KPH Banten. Pelatihan teknis penebangan kayu bertujuan meningkatkan pemahaman dan keterampilan kerja petugas mandor tebang dan mitra kerja, memastikan seluruh proses produksi kayu berjalan sesuai standar teknis, aman, dan tertib administrasi.",
@@ -256,7 +256,7 @@ function getManualArticles() { return [
     "url": "berita12.html"
   },
   {
-    "id": 1013,
+    "id": -987,
     "title": "Perhutani KPH Banten Dukung Program Strategis Nasional Pembangunan Koperasi Desa Merah Putih Di Kabupaten Lebak Banten",
     "excerpt": "Perhutani KPH Banten mendukung Program Strategis Nasional pembangunan Koperasi Desa Merah Putih di Kabupaten Lebak, memperkuat sinergi lintas sektoral.",
     "content": "Perhutani KPH Banten menjalin sinergi lintas sektoral bersama Kodim 06/03 Lebak dan Dinas Koperasi dan UKM Kabupaten Lebak untuk mendukung Program Strategis Nasional pembangunan Koperasi Desa Merah Putih (KDMP). Rapat koordinasi membahas kesiapan lahan dan pemenuhan aspek legalitas dalam rencana pembangunan sarana dan prasarana KDMP.",
@@ -268,7 +268,7 @@ function getManualArticles() { return [
     "url": "berita13.html"
   },
   {
-    "id": 1014,
+    "id": -986,
     "title": "Jalin Sinergi, Perhutani Bogor Kunjungi Polsek Tenjo",
     "excerpt": "Perhutani KPH Bogor menjalin sinergitas dengan Polsek Tenjo untuk menjaga keamanan hutan dan pencegahan gangguan keamanan hutan.",
     "content": "Perum Perhutani KPH Bogor menjalin sinergitas dengan Polsek Tenjo dalam menjaga keamanan hutan melalui kunjungan ke Polsek Tenjo. Kegiatan bertujuan menjalin sinergi bersama Polsek Tenjo dalam pencegahan dan penanganan gangguan keamanan hutan di wilayah RPH Tenjo dan memenuhi undangan Pisah Sambut Kapolsek Tenjo.",
@@ -280,7 +280,7 @@ function getManualArticles() { return [
     "url": "berita14.html"
   },
   {
-    "id": 1015,
+    "id": -985,
     "title": "Perhutani KPH Bogor Bersama LMDH dan KTH Gelar Pentas Seni SymForest",
     "excerpt": "Perhutani KPH Bogor menjadi lokasi Pentas Seni SymForest yang diinisiasi KTH Kampung Rimba dan LMDH Puncak Lestari, mendukung promosi wisata alam.",
     "content": "Perum Perhutani KPH Bogor menjadi lokasi Pentas Seni SymForest yang diinisiasi KTH Kampung Rimba dan LMDH Puncak Lestari. Kegiatan dihadiri jajaran Perhutani, LMDH, KTH, dan tamu undangan dari Dinas Kebudayaan dan Pariwisata Kabupaten Bogor. Pentas seni bertujuan mempromosikan wisata alam dan pelestarian budaya Nusantara.",
@@ -292,7 +292,7 @@ function getManualArticles() { return [
     "url": "berita15.html"
   },
   {
-    "id": 1016,
+    "id": -984,
     "title": "Perhutani Bogor Terima Kunjungan DPRD Komisi IV Provinsi Banten di Parung Panjang",
     "excerpt": "Perhutani KPH Bogor menerima kunjungan DPRD Komisi IV Provinsi Banten di Parung Panjang, membahas pengembangan proyek karbon dan agroforestri.",
     "content": "Perum Perhutani KPH Bogor menerima kunjungan DPRD Komisi IV Provinsi Banten di Kantor BKPH Parung Panjang. Kunjungan membahas pengembangan proyek karbon dengan sistem agroforestri dan pemberdayaan masyarakat. Perhutani mendukung diskusi dan sharing positif untuk kebijakan kawasan hutan berkelanjutan.",
@@ -304,7 +304,7 @@ function getManualArticles() { return [
     "url": "berita16.html"
   },
   {
-    "id": 1017,
+    "id": -983,
     "title": "Perhutani Bogor Hadiri Tanam Jagung Serentak Polri di Cigombong",
     "excerpt": "Perhutani KPH Bogor hadiri Panen Jagung Serentak Kuartal I Polri di Cigombong, mendukung ketahanan pangan nasional.",
     "content": "Perum Perhutani KPH Bogor hadiri Panen Jagung Serentak Kuartal I Polri di Desa Tugu Jaya, Kecamatan Cigombong, Kabupaten Bogor. Kegiatan mendukung swasembada pangan nasional dan memperkuat ketahanan pangan serta kesejahteraan petani lokal.",
@@ -316,7 +316,7 @@ function getManualArticles() { return [
     "url": "berita17.html"
   },
   {
-    "id": 1018,
+    "id": -982,
     "title": "Perhutani Bogor Bersama CV. Emir Tusin Dampingi LMDH Binaan Untuk Tingkatkan Produktifitas",
     "excerpt": "Perhutani KPH Bogor bersama CV. Emir Tusin lakukan pendampingan kepada LMDH binaan agar produktif dalam berwiraswasta dan mengembangkan usaha kehutanan.",
     "content": "Perum Perhutani KPH Bogor bersama CV. Emir Tusin melakukan pendampingan kepada LMDH binaan agar produktif dalam berwiraswasta. Pendampingan mencakup legalitas usaha, pembuatan NIB, izin PIRT, persiapan izin edar dan sertifikasi halal. Kegiatan bertujuan memberdayakan LMDH dan KTH untuk berdaya, produktif, dan inovatif.",
@@ -328,7 +328,7 @@ function getManualArticles() { return [
     "url": "berita18.html"
   },
   {
-    "id": 1019,
+    "id": -981,
     "title": "Perhutani Bogor Dukung Bitagure 5 di Parung Panjang, Tanamkan Generasi Muda Cinta Lingkungan",
     "excerpt": "Perhutani KPH Bogor mendukung Bitagure ke-5 di Parung Panjang, menanamkan generasi muda cinta lingkungan dan mempererat tali persaudaraan Pramuka.",
     "content": "Perum Perhutani KPH Bogor mendukung pelaksanaan Bitagure ke-5 di KHDTK BP2SDM Kementerian Kehutanan, Parung Panjang. Kegiatan bertujuan menanamkan nilai tanggung jawab pelestarian sumber daya alam, mempererat tali persaudaraan Pramuka, dan membentuk generasi peduli lingkungan.",
@@ -340,7 +340,7 @@ function getManualArticles() { return [
     "url": "berita19.html"
   },
   {
-    "id": 1020,
+    "id": -980,
     "title": "Pererat Sinergisitas, Perhutani KPH Bogor Silaturahmi ke Kodim 0621 Kabupaten Bogor",
     "excerpt": "Perhutani KPH Bogor silaturahmi ke Kodim 0621 Kabupaten Bogor, mempererat sinergi pengelolaan dan pengamanan kawasan hutan.",
     "content": "Perum Perhutani KPH Bogor silaturahmi ke Kodim 0621 Kabupaten Bogor di Cibinong, mempererat sinergi pengelolaan dan pengamanan kawasan hutan. Kegiatan membahas dukungan penanganan Gukamhut, rencana program Koperasi Desa Merah Putih, dan kolaborasi strategis untuk pemberdayaan masyarakat desa sekitar hutan.",
@@ -352,7 +352,7 @@ function getManualArticles() { return [
     "url": "berita20.html"
   },
   {
-    "id": 1021,
+    "id": -979,
     "title": "Perhutani Ciamis Serahkan Bantuan Bibit Kepada Paguyuban Peduli Alam Dan Lingkungan Ciamis",
     "excerpt": "Perhutani KPH Ciamis menyerahkan bantuan bibit tanaman kepada Paguyuban Peduli Alam dan Lingkungan Galuh Asri, mendukung kelestarian lingkungan.",
     "content": "Perum Perhutani KPH Ciamis menyerahkan bantuan bibit tanaman kepada Paguyuban Peduli Alam dan Lingkungan Galuh Asri di wisata bukit baros Desa Ciomas Kecamatan Panjalu. Kegiatan bertujuan menjaga kelestarian lingkungan dan mendukung program penghijauan di area Bukit Baros.",
@@ -364,7 +364,7 @@ function getManualArticles() { return [
     "url": "berita21.html"
   },
   {
-    "id": 1022,
+    "id": -978,
     "title": "Perhutani KPH Ciamis Perkuat Sinergitas Bersama Dengan Setda Kota Banjar Terkait Mitigasi Bencana",
     "excerpt": "Perhutani KPH Ciamis melakukan kunjungan silaturahmi dan koordinasi ke Setda Kota Banjar, memperkuat sinergitas mitigasi bencana alam.",
     "content": "Perum Perhutani KPH Ciamis melakukan kunjungan silaturahmi dan koordinasi ke Kantor Setda Kota Banjar. Kegiatan membahas pencegahan dan penanganan bencana alam, mendukung program pemerintah daerah dalam aspek lingkungan dan keamanan wilayah, serta memastikan penanganan bencana dilakukan secara terpadu.",
@@ -376,7 +376,7 @@ function getManualArticles() { return [
     "url": "berita22.html"
   },
   {
-    "id": 1023,
+    "id": -977,
     "title": "Sinergi Keamanan dan Ekonomi, Perhutani KPH Cianjur Sambangi Dandim 0608",
     "excerpt": "Perhutani KPH Cianjur melaksanakan koordinasi dengan Dandim 0608 Cianjur, mendukung pembangunan ekonomi desa dan pelestarian lingkungan.",
     "content": "Perum Perhutani KPH Cianjur melaksanakan koordinasi dengan Dandim 0608 Cianjur untuk sinkronisasi program dan penguatan kerja sama lintas sektor. Kegiatan membahas penggunaan kawasan hutan untuk mendukung pembangunan Koperasi Merah Putih, mendukung pembangunan ekonomi desa dan pelestarian lingkungan.",
@@ -388,7 +388,7 @@ function getManualArticles() { return [
     "url": "berita23.html"
   },
   {
-    "id": 1024,
+    "id": -976,
     "title": "Tingkatkan Keamanan Wisatawan, Perhutani Cianjur dan Polsek Tanggeung Pastikan Keamanan Wisatawan di Curug Citambur",
     "excerpt": "Perhutani KPH Cianjur bersinergi dengan Polsek Tanggeung melaksanakan pengamanan terpadu di Curug Citambur, mendukung kenyamanan wisatawan.",
     "content": "Perum Perhutani KPH Cianjur bersinergi dengan Polsek Tanggeung melaksanakan pengamanan terpadu di kawasan wana wisata Curug Citambur, Kecamatan Pasirkuda, Kabupaten Cianjur. Kegiatan bertujuan menjaga situasi keamanan dan kenyamanan pengunjung, serta mitigasi potensi bencana alam di kawasan wisata.",
@@ -400,7 +400,7 @@ function getManualArticles() { return [
     "url": "berita24.html"
   },
   {
-    "id": 1025,
+    "id": -975,
     "title": "Perkuat Sinergi, Perhutani Bersama Kejari Lakukan Sosialisasi Penanganan Hukum Perdata dan Tata Usaha Negara",
     "excerpt": "Perhutani KPH Cianjur memperkokoh sinergi strategis dengan Kejari Cianjur melalui sosialisasi penanganan masalah hukum di bidang Perdata dan Tata Usaha Negara.",
     "content": "Perum Perhutani KPH Cianjur memperkokoh sinergi strategis dengan Kejari Cianjur melalui sosialisasi intensif penanganan masalah hukum di bidang Perdata dan Tata Usaha Negara (DATUN). Kegiatan bertujuan mengoptimalkan pengamanan aset negara dan kelestarian hutan di wilayah Kabupaten Cianjur.",
@@ -412,7 +412,7 @@ function getManualArticles() { return [
     "url": "berita25.html"
   },
   {
-    "id": 1026,
+    "id": -974,
     "title": "Tingkatkan Kewaspadaan Musim Hujan, Perhutani Cianjur Bersama BPBD dan Pemdes Cidadap Gelar Sosialisasi Mitigasi Partisipatif",
     "excerpt": "Perhutani KPH Cianjur bersinergi dengan BPBD dan Pemdes Cidadap menggelar sosialisasi mitigasi partisipatif untuk menekan risiko bencana di wilayah rawan.",
     "content": "Perum Perhutani KPH Cianjur bersinergi dengan BPBD Kabupaten Cianjur dan Pemdes Cidadap menggelar sosialisasi kesiapsiagaan bencana hidrometeorologi. Kegiatan bertujuan menekan risiko bencana di wilayah rawan longsor dan banjir, mengedepankan mitigasi partisipatif masyarakat, dan meningkatkan pemahaman warga mengenai batas kawasan hutan dan risiko bencana.",
@@ -424,7 +424,7 @@ function getManualArticles() { return [
     "url": "berita26.html"
   },
   {
-    "id": 1027,
+    "id": -973,
     "title": "Perhutani KPH Cianjur Lakukan Konsolidasi dan Pengamanan Lahan Kompensasi di Sukanagara",
     "excerpt": "Perhutani KPH Cianjur bersama TNI, Polri, Pertamina, BPN, dan Muspika melaksanakan konsolidasi dan pengamanan lahan kompensasi di Sukanagara.",
     "content": "Perum Perhutani KPH Cianjur bersama TNI, Polri, Pertamina, BPN, dan Muspika melaksanakan konsolidasi dan pengamanan lapangan di lokasi calon lahan kompensasi di Sukanagara, Kabupaten Cianjur. Kegiatan bertujuan memastikan status hukum dan kondisi fisik lahan, mengantisipasi potensi gangguan keamanan hutan dan sengketa lahan, serta memperkuat kerja sama strategis lintas instansi.",
@@ -436,7 +436,7 @@ function getManualArticles() { return [
     "url": "berita27.html"
   },
   {
-    "id": 1028,
+    "id": -972,
     "title": "Tingkatkan Kualitas SDM, Perhutani KPH Cianjur Lepas Mahasiswi Ilmu Komunikasi UIMA Pasca Magang",
     "excerpt": "Tingkatkan Kualitas SDM, Perhutani KPH Cianjur Lepas Mahasiswi Ilmu Komunikasi UIMA Pasca Magang, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Tingkatkan Kualitas SDM, Perhutani KPH Cianjur Lepas Mahasiswi Ilmu Komunikasi UIMA Pasca Magang. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -448,7 +448,7 @@ function getManualArticles() { return [
     "url": "berita28.html"
   },
   {
-    "id": 1029,
+    "id": -971,
     "title": "Sinergi Perhutani Cianjur, TNI, dan Pemkab Perkuat Ekonomi Desa melalui Koperasi Merah Putih",
     "excerpt": "Sinergi Perhutani Cianjur, TNI, dan Pemkab Perkuat Ekonomi Desa melalui Koperasi Merah Putih, mendukung pengembangan ekonomi desa.",
     "content": "Sinergi Perhutani Cianjur, TNI, dan Pemkab Perkuat Ekonomi Desa melalui Koperasi Merah Putih. Kegiatan ini bertujuan mendukung pengembangan ekonomi desa. Perhutani berkomitmen mendukung pengembangan ekonomi desa melalui pembentukan koperasi.",
@@ -460,7 +460,7 @@ function getManualArticles() { return [
     "url": "berita29.html"
   },
   {
-    "id": 1030,
+    "id": -970,
     "title": "Perhutani Bersama PGE Karaha Teken PKS Pemanfaatan Air di Garut",
     "excerpt": "Perhutani Bersama PGE Karaha Teken PKS Pemanfaatan Air di Garut, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani Bersama PGE Karaha Teken PKS Pemanfaatan Air di Garut. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -472,7 +472,7 @@ function getManualArticles() { return [
     "url": "berita30.html"
   },
   {
-    "id": 1031,
+    "id": -969,
     "title": "Perhutani dan LMDH Gelar Patroli Bersama Lindungi Hutan di Garut",
     "excerpt": "Perhutani dan LMDH Gelar Patroli Bersama Lindungi Hutan di Garut, mendukung pengelolaan bencana.",
     "content": "Perhutani dan LMDH Gelar Patroli Bersama Lindungi Hutan di Garut. Kegiatan ini bertujuan mendukung pengelolaan bencana. Perhutani berkomitmen mendukung pengelolaan bencana.",
@@ -484,7 +484,7 @@ function getManualArticles() { return [
     "url": "berita31.html"
   },
   {
-    "id": 1032,
+    "id": -968,
     "title": "Perhutani Bersama Pertamina Area Karaha Lakukan Penanaman di Garut",
     "excerpt": "Perhutani Bersama Pertamina Area Karaha Lakukan Penanaman di Garut, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani Bersama Pertamina Area Karaha Lakukan Penanaman di Garut. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -496,7 +496,7 @@ function getManualArticles() { return [
     "url": "berita32.html"
   },
   {
-    "id": 1033,
+    "id": -967,
     "title": "Perhutani Dukung Panen Raya Jagung Kuartal I Tahun 2026 di Garut",
     "excerpt": "Perhutani Dukung Panen Raya Jagung Kuartal I Tahun 2026 di Garut, mendukung ketahanan pangan.",
     "content": "Perhutani Dukung Panen Raya Jagung Kuartal I Tahun 2026 di Garut. Kegiatan ini bertujuan mendukung ketahanan pangan. Perhutani berkomitmen mendukung ketahanan pangan.",
@@ -508,7 +508,7 @@ function getManualArticles() { return [
     "url": "berita33.html"
   },
   {
-    "id": 1034,
+    "id": -966,
     "title": "Perhutani Salurkan Bantuan Bibit Untuk Paguyuban Warga Darangdan",
     "excerpt": "Perhutani Salurkan Bantuan Bibit Untuk Paguyuban Warga Darangdan, mendukung pelestarian kawasan hutan.",
     "content": "Perhutani Salurkan Bantuan Bibit Untuk Paguyuban Warga Darangdan. Kegiatan ini bertujuan menjaga sumber mata air dan memperkuat ketahanan ekosistem. Penanaman ratusan bibit pohon seperti damar, rasamala, pinus, puspa, dan mahoni bertujuan menjaga sumber mata air dan memperkuat ketahanan ekosistem. Kegiatan ini menjadi bentuk kepedulian nyata terhadap pelestarian kawasan hutan dan sumber air.",
@@ -520,7 +520,7 @@ function getManualArticles() { return [
     "url": "berita34.html"
   },
   {
-    "id": 1035,
+    "id": -965,
     "title": "Perhutani KPH Indramayu Perkuat Kemitraan dengan Masyarakat Desa Hutan",
     "excerpt": "Perhutani KPH Indramayu Perkuat Kemitraan dengan Masyarakat Desa Hutan, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Indramayu Perkuat Kemitraan dengan Masyarakat Desa Hutan. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -532,7 +532,7 @@ function getManualArticles() { return [
     "url": "berita35.html"
   },
   {
-    "id": 1036,
+    "id": -964,
     "title": "Perhutani KPH Indramayu Dukung Program Revitalisasi Tambak Pantura Berkelanjutan",
     "excerpt": "Perhutani KPH Indramayu Dukung Program Revitalisasi Tambak Pantura Berkelanjutan, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Indramayu Dukung Program Revitalisasi Tambak Pantura Berkelanjutan. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -544,7 +544,7 @@ function getManualArticles() { return [
     "url": "berita36.html"
   },
   {
-    "id": 1037,
+    "id": -963,
     "title": "Perhutani KPH Indramayu Serahkan Sertifikat Magang Kepada Mahasiswi Universitas Wiralodra",
     "excerpt": "Perhutani KPH Indramayu Serahkan Sertifikat Magang Kepada Mahasiswi Universitas Wiralodra, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Indramayu Serahkan Sertifikat Magang Kepada Mahasiswi Universitas Wiralodra. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -556,7 +556,7 @@ function getManualArticles() { return [
     "url": "berita37.html"
   },
   {
-    "id": 1038,
+    "id": -962,
     "title": "Perhutani Menjadi Narasumber Dalam Acara FGD di Universitas Negeri Jakarta",
     "excerpt": "Perhutani Menjadi Narasumber Dalam Acara FGD di Universitas Negeri Jakarta, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani Menjadi Narasumber Dalam Acara FGD di Universitas Negeri Jakarta. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -568,7 +568,7 @@ function getManualArticles() { return [
     "url": "berita38.html"
   },
   {
-    "id": 1039,
+    "id": -961,
     "title": "Perhutani KPH Indramayu Bersama Stakeholder Gelar Patroli Siaga Bencana",
     "excerpt": "Perhutani KPH Indramayu Bersama Stakeholder Gelar Patroli Siaga Bencana, mendukung pengelolaan bencana.",
     "content": "Perhutani KPH Indramayu Bersama Stakeholder Gelar Patroli Siaga Bencana. Kegiatan ini bertujuan mendukung pengelolaan bencana. Perhutani berkomitmen mendukung pengelolaan bencana.",
@@ -580,7 +580,7 @@ function getManualArticles() { return [
     "url": "berita39.html"
   },
   {
-    "id": 1040,
+    "id": -960,
     "title": "Perhutani KPH Majalengka Dukung Kegiatan Sosial Harlah ke-21 Sekar Perhutani",
     "excerpt": "Perhutani KPH Majalengka Dukung Kegiatan Sosial Harlah ke-21 Sekar Perhutani, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Majalengka Dukung Kegiatan Sosial Harlah ke-21 Sekar Perhutani. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -592,7 +592,7 @@ function getManualArticles() { return [
     "url": "berita40.html"
   },
   {
-    "id": 1041,
+    "id": -959,
     "title": "Perhutani KPH Majalengka Gelar FGD Bersama Pengelola Wisata Batu Lawang Di Kawasan Hutan",
     "excerpt": "Perhutani KPH Majalengka Gelar FGD Bersama Pengelola Wisata Batu Lawang Di Kawasan Hutan, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Majalengka Gelar FGD Bersama Pengelola Wisata Batu Lawang Di Kawasan Hutan. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -604,7 +604,7 @@ function getManualArticles() { return [
     "url": "berita41.html"
   },
   {
-    "id": 1042,
+    "id": -958,
     "title": "Perhutani KPH Majalengka dan Kejari Majalengka Perkuat Kerja Sama Bidang Hukum",
     "excerpt": "Perhutani KPH Majalengka dan Kejari Majalengka Perkuat Kerja Sama Bidang Hukum, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Majalengka dan Kejari Majalengka Perkuat Kerja Sama Bidang Hukum. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -616,7 +616,7 @@ function getManualArticles() { return [
     "url": "berita42.html"
   },
   {
-    "id": 1043,
+    "id": -957,
     "title": "Perhutani KPH Majalengka Perkuat Sinergi dengan Kodim 0617 Majalengka untuk Dukung Pemberdayaan Ekonomi Desa",
     "excerpt": "Perhutani KPH Majalengka Perkuat Sinergi dengan Kodim 0617 Majalengka untuk Dukung Pemberdayaan Ekonomi Desa, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Majalengka Perkuat Sinergi dengan Kodim 0617 Majalengka untuk Dukung Pemberdayaan Ekonomi Desa. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -628,7 +628,7 @@ function getManualArticles() { return [
     "url": "berita43.html"
   },
   {
-    "id": 1044,
+    "id": -956,
     "title": "Perhutani KPH Kuningan Bersama Polres Kuningan Rencanakan Penanaman Pohon Bersama",
     "excerpt": "Perhutani KPH Kuningan Bersama Polres Kuningan Rencanakan Penanaman Pohon Bersama, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Kuningan Bersama Polres Kuningan Rencanakan Penanaman Pohon Bersama. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -640,7 +640,7 @@ function getManualArticles() { return [
     "url": "berita44.html"
   },
   {
-    "id": 1045,
+    "id": -955,
     "title": "Perhutani KPH Kuningan Perkuat Koordinasi Lintas Sektor bersama Denpom Kuningan",
     "excerpt": "Perhutani KPH Kuningan Perkuat Koordinasi Lintas Sektor bersama Denpom Kuningan, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Kuningan Perkuat Koordinasi Lintas Sektor bersama Denpom Kuningan. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -652,7 +652,7 @@ function getManualArticles() { return [
     "url": "berita45.html"
   },
   {
-    "id": 1046,
+    "id": -954,
     "title": "Hadapi Tahun 2026, Perhutani KPH Kuningan Bersama BPBD Kuningan Perkuat Mitigasi Bencana",
     "excerpt": "Hadapi Tahun 2026, Perhutani KPH Kuningan Bersama BPBD Kuningan Perkuat Mitigasi Bencana, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Hadapi Tahun 2026, Perhutani KPH Kuningan Bersama BPBD Kuningan Perkuat Mitigasi Bencana. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -664,7 +664,7 @@ function getManualArticles() { return [
     "url": "berita46.html"
   },
   {
-    "id": 1047,
+    "id": -953,
     "title": "Perhutani KPH Kuningan dan Yonif TP 839 Perkuat Sinergi Bahas Ketahanan Pangan",
     "excerpt": "Perhutani KPH Kuningan dan Yonif TP 839 Perkuat Sinergi Bahas Ketahanan Pangan, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Kuningan dan Yonif TP 839 Perkuat Sinergi Bahas Ketahanan Pangan. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -676,7 +676,7 @@ function getManualArticles() { return [
     "url": "berita47.html"
   },
   {
-    "id": 1048,
+    "id": -952,
     "title": "Perum Perhutani KPH Kuningan Melakukan Pelantikan Tapak Rimba (Petara) Tahun 2026 Berlangsung Sukses",
     "excerpt": "Perum Perhutani KPH Kuningan Melakukan Pelantikan Tapak Rimba (Petara) Tahun 2026 Berlangsung Sukses, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perum Perhutani KPH Kuningan Melakukan Pelantikan Tapak Rimba (Petara) Tahun 2026 Berlangsung Sukses. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -688,7 +688,7 @@ function getManualArticles() { return [
     "url": "berita48.html"
   },
   {
-    "id": 1049,
+    "id": -951,
     "title": "Perhutani KPH Kuningan Fokus Memproduksi Kayu di Awal Tahun 2026, dan Laksanakan Cutting Test Tebangan",
     "excerpt": "Perhutani KPH Kuningan Fokus Memproduksi Kayu di Awal Tahun 2026, dan Laksanakan Cutting Test Tebangan, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Kuningan Fokus Memproduksi Kayu di Awal Tahun 2026, dan Laksanakan Cutting Test Tebangan. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -700,7 +700,7 @@ function getManualArticles() { return [
     "url": "berita49.html"
   },
   {
-    "id": 1050,
+    "id": -950,
     "title": "Perhutani KPH Kuningan Melakukan Pembinaan Rutin Produksi Getah Pinus di TPG Bagarurung BKPH Garawangi",
     "excerpt": "Perhutani KPH Kuningan Melakukan Pembinaan Rutin Produksi Getah Pinus di TPG Bagarurung BKPH Garawangi, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Kuningan Melakukan Pembinaan Rutin Produksi Getah Pinus di TPG Bagarurung BKPH Garawangi. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -712,7 +712,7 @@ function getManualArticles() { return [
     "url": "berita50.html"
   },
   {
-    "id": 1051,
+    "id": -949,
     "title": "Perhutani KPH Kuningan Hadiri Peresmian Gedung Baru TBM Pondok Kata RZ dan Festival Kaulinan Barudak",
     "excerpt": "Perhutani KPH Kuningan Hadiri Peresmian Gedung Baru TBM Pondok Kata RZ dan Festival Kaulinan Barudak, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Kuningan Hadiri Peresmian Gedung Baru TBM Pondok Kata RZ dan Festival Kaulinan Barudak. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -724,7 +724,7 @@ function getManualArticles() { return [
     "url": "berita51.html"
   },
   {
-    "id": 1052,
+    "id": -948,
     "title": "Perhutani KPH Kuningan, Kodim 0615, dan Pemda Kuningan Sinergi Dukung Program KDMP",
     "excerpt": "Perhutani KPH Kuningan, Kodim 0615, dan Pemda Kuningan Sinergi Dukung Program KDMP, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Kuningan, Kodim 0615, dan Pemda Kuningan Sinergi Dukung Program KDMP. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -736,7 +736,7 @@ function getManualArticles() { return [
     "url": "berita52.html"
   },
   {
-    "id": 1053,
+    "id": -947,
     "title": "Perhutani KPH Purwakarta Sosialisasikan Keamanan dan Kelestarian Hutan kepada Masyarakat",
     "excerpt": "Perhutani KPH Purwakarta Sosialisasikan Keamanan dan Kelestarian Hutan kepada Masyarakat, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Purwakarta Sosialisasikan Keamanan dan Kelestarian Hutan kepada Masyarakat. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -748,7 +748,7 @@ function getManualArticles() { return [
     "url": "berita53.html"
   },
   {
-    "id": 1054,
+    "id": -946,
     "title": "Perhutani KPH Purwakarta Sosialisasikan Skema KKP dan KKPP",
     "excerpt": "Perhutani KPH Purwakarta Sosialisasikan Skema KKP dan KKPP, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Purwakarta Sosialisasikan Skema KKP dan KKPP. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -760,7 +760,7 @@ function getManualArticles() { return [
     "url": "berita54.html"
   },
   {
-    "id": 1055,
+    "id": -945,
     "title": "Perhutani KPH Purwakarta Fasilitasi Roadshow Paguyuban LMDH untuk Penguatan Kemitraan",
     "excerpt": "Perhutani KPH Purwakarta Fasilitasi Roadshow Paguyuban LMDH untuk Penguatan Kemitraan, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Purwakarta Fasilitasi Roadshow Paguyuban LMDH untuk Penguatan Kemitraan. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -772,7 +772,7 @@ function getManualArticles() { return [
     "url": "berita55.html"
   },
   {
-    "id": 1056,
+    "id": -944,
     "title": "Pehutani KPH Purwakarta dan LMDH Gelar Patroli Bersama Cegah Gangguan Keamanan Hutan",
     "excerpt": "Pehutani KPH Purwakarta dan LMDH Gelar Patroli Bersama Cegah Gangguan Keamanan Hutan, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Pehutani KPH Purwakarta dan LMDH Gelar Patroli Bersama Cegah Gangguan Keamanan Hutan. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -784,7 +784,7 @@ function getManualArticles() { return [
     "url": "berita56.html"
   },
   {
-    "id": 1057,
+    "id": -943,
     "title": "Perhutani KPH Purwakarta Serahkan Sharing Kayu Jabon Kepada PT Java Unggul Sejahtera",
     "excerpt": "Perhutani KPH Purwakarta Serahkan Sharing Kayu Jabon Kepada PT Java Unggul Sejahtera, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Purwakarta Serahkan Sharing Kayu Jabon Kepada PT Java Unggul Sejahtera. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -796,7 +796,7 @@ function getManualArticles() { return [
     "url": "berita57.html"
   },
   {
-    "id": 1058,
+    "id": -942,
     "title": "Perhutani KPH Purwakarta Teken PKS Pemanfaatan Jasa Lingkungan Usaha Wisata Kuliner",
     "excerpt": "Perhutani KPH Purwakarta Teken PKS Pemanfaatan Jasa Lingkungan Usaha Wisata Kuliner, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Purwakarta Teken PKS Pemanfaatan Jasa Lingkungan Usaha Wisata Kuliner. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -808,7 +808,7 @@ function getManualArticles() { return [
     "url": "berita58.html"
   },
   {
-    "id": 1059,
+    "id": -941,
     "title": "Perhutani Menerima Kunjungan LMDH Tapak Jabar, Perkuat Sinergi Pengelolaan Hutan",
     "excerpt": "Perhutani Menerima Kunjungan LMDH Tapak Jabar, Perkuat Sinergi Pengelolaan Hutan, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani Menerima Kunjungan LMDH Tapak Jabar, Perkuat Sinergi Pengelolaan Hutan. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -820,7 +820,7 @@ function getManualArticles() { return [
     "url": "berita59.html"
   },
   {
-    "id": 1060,
+    "id": -940,
     "title": "Perhutani KPH Purwakarta laksanakan Closing Meeting PHL Tahun 2026",
     "excerpt": "Perhutani KPH Purwakarta laksanakan Closing Meeting PHL Tahun 2026, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Purwakarta laksanakan Closing Meeting PHL Tahun 2026. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -832,7 +832,7 @@ function getManualArticles() { return [
     "url": "berita60.html"
   },
   {
-    "id": 1061,
+    "id": -939,
     "date": "2026-01-27",
     "author": "WK",
     "dateFormatted": "27 Januari 2026",
@@ -844,7 +844,7 @@ function getManualArticles() { return [
     "url": "berita61.html"
   },
   {
-    "id": 1062,
+    "id": -938,
     "date": "2026-01-28",
     "author": "WK",
     "dateFormatted": "28 Januari 2026",
@@ -856,7 +856,7 @@ function getManualArticles() { return [
     "url": "berita62.html"
   },
   {
-    "id": 1063,
+    "id": -937,
     "date": "2026-01-08",
     "author": "WK",
     "dateFormatted": "08 Januari 2026",
@@ -868,7 +868,7 @@ function getManualArticles() { return [
     "url": "berita63.html"
   },
   {
-    "id": 1064,
+    "id": -936,
     "date": "2026-01-12",
     "author": "WK",
     "dateFormatted": "12 Januari 2026",
@@ -880,7 +880,7 @@ function getManualArticles() { return [
     "url": "berita64.html"
   },
   {
-    "id": 1065,
+    "id": -935,
     "date": "2026-01-20",
     "author": "WK",
     "dateFormatted": "20 Januari 2026",
@@ -892,7 +892,7 @@ function getManualArticles() { return [
     "url": "berita65.html"
   },
   {
-    "id": 1066,
+    "id": -934,
     "date": "2026-01-12",
     "author": "WK",
     "dateFormatted": "12 Januari 2026",
@@ -904,7 +904,7 @@ function getManualArticles() { return [
     "url": "berita66.html"
   },
   {
-    "id": 1067,
+    "id": -933,
     "date": "2026-01-21",
     "author": "WK",
     "dateFormatted": "21 Januari 2026",
@@ -916,7 +916,7 @@ function getManualArticles() { return [
     "url": "berita67.html"
   },
   {
-    "id": 1068,
+    "id": -932,
     "date": "2026-01-22",
     "author": "WK",
     "dateFormatted": "22 Januari 2026",
@@ -928,7 +928,7 @@ function getManualArticles() { return [
     "url": "berita68.html"
   },
   {
-    "id": 1069,
+    "id": -931,
     "date": "2026-01-25",
     "author": "WK",
     "dateFormatted": "25 Januari 2026",
@@ -940,7 +940,7 @@ function getManualArticles() { return [
     "url": "berita69.html"
   },
   {
-    "id": 1070,
+    "id": -930,
     "date": "2026-01-27",
     "author": "WK",
     "dateFormatted": "27 Januari 2026",
@@ -952,7 +952,7 @@ function getManualArticles() { return [
     "url": "berita70.html"
   },
   {
-    "id": 1071,
+    "id": -929,
     "title": "Perhutani KPH Sumedang Tangani Pasca Longsor Desa Pamekarsari Dengan Penanaman Pohon Bersama Muspika Buahdua",
     "excerpt": "Perhutani KPH Sumedang Tangani Pasca Longsor Desa Pamekarsari Dengan Penanaman Pohon Bersama Muspika Buahdua, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Sumedang Tangani Pasca Longsor Desa Pamekarsari Dengan Penanaman Pohon Bersama Muspika Buahdua. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -964,7 +964,7 @@ function getManualArticles() { return [
     "url": "berita71.html"
   },
   {
-    "id": 1072,
+    "id": -928,
     "title": "Perhutani KPH Tasikmalaya Dukung Gerakan Nasional GG Lestari 2026 di Pasir Datar Galunggung",
     "excerpt": "Perhutani Tasikmalaya Dukung Gerakan Nasional GG Lestari 2026 di Pasir Datar Galunggung, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani Tasikmalaya Dukung Gerakan Nasional GG Lestari 2026 di Pasir Datar Galunggung. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -976,7 +976,7 @@ function getManualArticles() { return [
     "url": "berita72.html"
   },
   {
-    "id": 1073,
+    "id": -927,
     "title": "Perhutani Tasikmalaya Perkuat Kerja Sama Pemanfaatan Jasa Lingkungan Bersama Pemerintah Kabupaten Tasikmalaya",
     "excerpt": "Perhutani Tasikmalaya Perkuat Kerja Sama Pemanfaatan Jasa Lingkungan Bersama Pemerintah Kabupaten Tasikmalaya, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani Tasikmalaya Perkuat Kerja Sama Pemanfaatan Jasa Lingkungan Bersama Pemerintah Kabupaten Tasikmalaya. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -988,7 +988,7 @@ function getManualArticles() { return [
     "url": "berita73.html"
   },
   {
-    "id": 1074,
+    "id": -926,
     "title": "Perhutani KPH Tasikmalaya Kembangkan Kebun Pangkas Pinus Bocor Getah",
     "excerpt": "Perhutani KPH Tasikmalaya Kembangkan Kebun Pangkas Pinus Bocor Getah, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Tasikmalaya Kembangkan Kebun Pangkas Pinus Bocor Getah. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1000,7 +1000,7 @@ function getManualArticles() { return [
     "url": "berita74.html"
   },
   {
-    "id": 1075,
+    "id": -925,
     "title": "Perhutani KPH Tasikmalaya Perkuat Legalitas Usaha Kopi LMDH Kahirupan",
     "excerpt": "Perhutani KPH Tasikmalaya Perkuat Legalitas Usaha Kopi LMDH Kahirupan, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Tasikmalaya Perkuat Legalitas Usaha Kopi LMDH Kahirupan. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1012,7 +1012,7 @@ function getManualArticles() { return [
     "url": "berita75.html"
   },
   {
-    "id": 1076,
+    "id": -924,
     "title": "Perhutani Tasikmalaya Hadiri Sosialisasi Percepatan Reforma Agraria di Karangjaya",
     "excerpt": "Perhutani Tasikmalaya Hadiri Sosialisasi Percepatan Reforma Agraria di Karangjaya, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani Tasikmalaya Hadiri Sosialisasi Percepatan Reforma Agraria di Karangjaya. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1024,7 +1024,7 @@ function getManualArticles() { return [
     "url": "berita76.html"
   },
   {
-    "id": 1077,
+    "id": -923,
     "title": "Perhutani KPH Tasikmalaya Laksanakan Penanaman Perdana Kebun Pangkas Pinus Bocor Getah",
     "excerpt": "Perhutani KPH Tasikmalaya Laksanakan Penanaman Perdana Kebun Pangkas Pinus Bocor Getah, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Tasikmalaya Laksanakan Penanaman Perdana Kebun Pangkas Pinus Bocor Getah. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1036,7 +1036,7 @@ function getManualArticles() { return [
     "url": "berita77.html"
   },
   {
-    "id": 1078,
+    "id": -922,
     "title": "Perhutani Tasikmalaya Bahas Pengembangan Wisata Curug Badak Hanoman Bersama LMDH Kahuripan",
     "excerpt": "Perhutani Tasikmalaya Bahas Pengembangan Wisata Curug Badak Hanoman Bersama LMDH Kahuripan, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani Tasikmalaya Bahas Pengembangan Wisata Curug Badak Hanoman Bersama LMDH Kahuripan. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1048,7 +1048,7 @@ function getManualArticles() { return [
     "url": "berita78.html"
   },
   {
-    "id": 1079,
+    "id": -921,
     "title": "Perhutani KPH Tasikmalaya Kukuhkan Anggota Saka Wanabakti Angkatan ke-42",
     "excerpt": "Perhutani KPH Tasikmalaya Kukuhkan Anggota Saka Wanabakti Angkatan ke-42, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Tasikmalaya Kukuhkan Anggota Saka Wanabakti Angkatan ke-42. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1060,7 +1060,7 @@ function getManualArticles() { return [
     "url": "berita79.html"
   },
   {
-    "id": 1080,
+    "id": -920,
     "title": "Perhutani KPH Tasikmalaya Dukung Program Tasik Hejo, Dampingi Bupati dan Wakil Bupati dalam Aksi Tanam Pohon",
     "excerpt": "Perhutani KPH Tasikmalaya Dukung Program Tasik Hejo, Dampingi Bupati dan Wakil Bupati dalam Aksi Tanam Pohon, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Tasikmalaya Dukung Program Tasik Hejo, Dampingi Bupati dan Wakil Bupati dalam Aksi Tanam Pohon. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1072,7 +1072,7 @@ function getManualArticles() { return [
     "url": "berita80.html"
   },
   {
-    "id": 1081,
+    "id": -919,
     "title": "Perhutani KPH Tasikmalaya Dukung Program Tasik Hejo, Dampingi Bupati dan Wakil Bupati dalam Aksi Tanam Pohon",
     "excerpt": "Perhutani KPH Tasikmalaya Dukung Program Tasik Hejo, Dampingi Bupati dan Wakil Bupati dalam Aksi Tanam Pohon, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Tasikmalaya Dukung Program Tasik Hejo, Dampingi Bupati dan Wakil Bupati dalam Aksi Tanam Pohon. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1084,7 +1084,7 @@ function getManualArticles() { return [
     "url": "berita81.html"
   },
   {
-    "id": 1082,
+    "id": -918,
     "title": "Perhutani KPH Tasikmalaya dan CDK Wilayah VI Terima Silaturahmi Semarak Priatim",
     "excerpt": "Perhutani KPH Tasikmalaya dan CDK Wilayah VI Terima Silaturahmi Semarak Priatim, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Tasikmalaya dan CDK Wilayah VI Terima Silaturahmi Semarak Priatim. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1096,7 +1096,7 @@ function getManualArticles() { return [
     "url": "berita82.html"
   },
   {
-    "id": 1083,
+    "id": -917,
     "title": "Perhutani KPH Tasikmalaya Hadiri Peringatan Harlah ke-21 SEKAR Perhutani DPD Tasikmalaya",
     "excerpt": "Perhutani KPH Tasikmalaya Hadiri Peringatan Harlah ke-21 SEKAR Perhutani DPD Tasikmalaya, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Tasikmalaya Hadiri Peringatan Harlah ke-21 SEKAR Perhutani DPD Tasikmalaya. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1108,7 +1108,7 @@ function getManualArticles() { return [
     "url": "berita83.html"
   },
   {
-    "id": 1084,
+    "id": -916,
     "title": "Dukung Ketahanan Pangan, KPH Sukabumi Hadiri Peluncuran Penanaman Jagung Serentak 750 Hektar di Palabuhanratu",
     "excerpt": "Dukung Ketahanan Pangan, KPH Sukabumi Hadiri Peluncuran Penanaman Jagung Serentak 750 Hektar di Palabuhanratu, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Dukung Ketahanan Pangan, KPH Sukabumi Hadiri Peluncuran Penanaman Jagung Serentak 750 Hektar di Palabuhanratu. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1120,7 +1120,7 @@ function getManualArticles() { return [
     "url": "berita84.html"
   },
   {
-    "id": 1085,
+    "id": -915,
     "title": "Dukung Swasembada Nasional, Perhutani Hadiri Penanaman Jagung Serentak Kuartal I di Bogor",
     "excerpt": "Dukung Swasembada Nasional, Perhutani Hadiri Penanaman Jagung Serentak Kuartal I di Bogor, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Dukung Swasembada Nasional, Perhutani Hadiri Penanaman Jagung Serentak Kuartal I di Bogor. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1132,7 +1132,7 @@ function getManualArticles() { return [
     "url": "berita85.html"
   },
   {
-    "id": 1086,
+    "id": -914,
     "title": "Perhutani Bogor Hadiri Penanaman Serentak Jagung Kuartal I Polri di Kecamatan Tenjo",
     "excerpt": "Perhutani Bogor Hadiri Penanaman Serentak Jagung Kuartal I Polri di Kecamatan Tenjo, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani Bogor Hadiri Penanaman Serentak Jagung Kuartal I Polri di Kecamatan Tenjo. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1144,7 +1144,7 @@ function getManualArticles() { return [
     "url": "berita86.html"
   },
   {
-    "id": 1087,
+    "id": -913,
     "title": "Perhutani KPH Indramayu Dukung Polres Indramayu Tanam Jagung Serentak",
     "excerpt": "Perhutani KPH Indramayu Dukung Polres Indramayu Tanam Jagung Serentak, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Indramayu Dukung Polres Indramayu Tanam Jagung Serentak. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1156,7 +1156,7 @@ function getManualArticles() { return [
     "url": "berita87.html"
   },
   {
-    "id": 1088,
+    "id": -912,
     "title": "Perhutani Kuningan Dukung Penanaman Jagung Serentak di Gunungkeling Kuningan",
     "excerpt": "Perhutani Kuningan Dukung Penanaman Jagung Serentak di Gunungkeling Kuningan, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani Kuningan Dukung Penanaman Jagung Serentak di Gunungkeling Kuningan. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1168,7 +1168,7 @@ function getManualArticles() { return [
     "url": "berita88.html"
   },
   {
-    "id": 1089,
+    "id": -911,
     "title": "Dukung Ketahanan Pangan, Perhutani Lakukan Peninjauan Lokasi KDMP di Cilimusari",
     "excerpt": "Dukung Ketahanan Pangan, Perhutani Lakukan Peninjauan Lokasi KDMP di Cilimusari, mendukung pengembangan wawasan dan keterampilan praktis",
     "content": "Dukung Ketahanan Pangan, Perhutani Lakukan Peninjauan Lokasi KDMP di Cilimusari. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1180,7 +1180,7 @@ function getManualArticles() { return [
     "url": "berita89.html"
   },
   {
-    "id": 1090,
+    "id": -910,
     "title": "Perhutani KPH Purwakarta Berikan Edukasi PUHH kepada Mahasiswa Universitas Hiroshima",
     "excerpt": "Perhutani KPH Purwakarta Berikan Edukasi PUHH kepada Mahasiswa Universitas Hiroshima, mendukung pengembangan wawasan dan keterampilan praktis di bidang kehutanan.",
     "content": "Perhutani KPH Purwakarta Berikan Edukasi PUHH kepada Mahasiswa Universitas Hiroshima. Kegiatan ini bertujuan memberikan pengalaman kerja nyata serta pengenalan lingkungan kerja kepada para peserta. Peserta mengikuti aktivitas pembelajaran dan pendampingan sesuai tugas dan fungsi Perhutani. Kegiatan dilaksanakan mulai 5 Januari hingga 5 Februari 2026. Perhutani berkomitmen mendukung dunia pendidikan dengan memberikan ruang pembelajaran aplikatif. Para peserta diharapkan memanfaatkan kesempatan untuk menambah wawasan, meningkatkan keterampilan, dan memahami etika kerja di lingkungan perusahaan.",
@@ -1197,6 +1197,13 @@ function getManualArticles() { return [
 // =============================================================================
 // FILTERING & SORTING
 // =============================================================================
+
+/**
+ * Sort articles berdasarkan id descending (id terbesar di atas)
+ */
+function sortArticlesByIdDesc(articles) {
+  return articles.slice().sort((a, b) => (b.id || 0) - (a.id || 0));
+}
 
 /**
  * Filter articles berdasarkan category
@@ -1547,8 +1554,8 @@ async function initializeNewsLoader() {
     return;
   }
   
-  // Gabungkan dengan berita manual
-  allArticles = data.articles.concat(getManualArticles());
+  // Gabungkan dengan berita manual dan urutkan berdasarkan id terbaru terlebih dahulu
+  allArticles = sortArticlesByIdDesc(data.articles.concat(getManualArticles()));
   filteredArticles = [...allArticles];
   
   debugLog(`✓ Loaded ${allArticles.length} articles total`);
