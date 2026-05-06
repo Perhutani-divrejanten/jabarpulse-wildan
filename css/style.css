@@ -441,7 +441,7 @@ a.btn.active {
 @media (min-width: 768px) {
     .header,
     .header .navbar {
-        background: linear-gradient(90deg, #2c2c2c 0%, #353535 100%) !important;
+        background: linear-gradient(135deg, #b8860b 0%, #cc5500 35%, #b22222 70%, #b8860b 100%) !important;
     }
     
     .header .navbar-brand {
@@ -458,7 +458,7 @@ a.btn.active {
 @media (max-width: 768px) {   
     .header,
     .header .navbar {
-        background: linear-gradient(90deg, #2c2c2c 0%, #333333 100%) !important;
+        background: linear-gradient(135deg, #b8860b 0%, #cc5500 35%, #b22222 70%, #b8860b 100%) !important;
     }
     
     .header a.nav-link {
@@ -1120,7 +1120,7 @@ a.btn.active {
 }
 
 .footer-social-only {
-    background: linear-gradient(90deg, #353535 0%, #3d3d3d 100%);
+    background: linear-gradient(135deg, #8b4513 0%, #a0522d 35%, #800000 70%, #8b4513 100%);
     padding: 30px 0;
     border-top: 3px solid #d4a017;
 }
@@ -1145,7 +1145,7 @@ a.btn.active {
 
 /* Footer Bottom */
 .footer-bottom {
-    background: linear-gradient(90deg, #111111 0%, #1a1a1a 100%);
+    background: linear-gradient(135deg, #654321 0%, #8b0000 35%, #2f1b14 70%, #654321 100%);
     padding: 20px 0;
     border-top: 2px solid #d4a017;
 }
@@ -1155,23 +1155,23 @@ a.btn.active {
 }
 
 .footer-bottom .footer-links a {
-    color: #cccc;
+    color: #ffffff;
     font-size: 14px;
     margin: 0 5px;
 }
 
 .footer-bottom .footer-links a:hover {
-    color: #ff8c00;
+    color: #ffffff;
     text-decoration: underline;
     font-weight: 600;
 }
 
 .footer-bottom .footer-links span {
-    color: #666666;
+    color: #ffffff;
 }
 
 .footer-bottom .copyright {
-    color: #888888;
+    color: #ffffff;
     font-size: 13px;
     margin: 0;
 }
