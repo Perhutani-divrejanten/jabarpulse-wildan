@@ -1369,17 +1369,15 @@ function renderPagination() {
   if (currentPage > 1) {
     html += `
       <li class="page-item">
-        <a class="page-link" href="#" onclick="goToPage(${currentPage - 1}); return false;">
-          ← Sebelumnya
-        </a>
+        <a class="page-link" href="#" onclick="goToPage(${currentPage - 1}); return false;">&lt;</a>
       </li>
     `;
   } else {
-    html += '<li class="page-item disabled"><span class="page-link">← Sebelumnya</span></li>';
+    html += '<li class="page-item disabled"><span class="page-link">&lt;</span></li>';
   }
   
   // Page numbers
-  const paginationItems = getPaginationPages(totalPages, currentPage, 10);
+  const paginationItems = getPaginationPages(totalPages, currentPage, 7);
   for (const item of paginationItems) {
     if (item.type === 'page') {
       if (item.page === currentPage) {
@@ -1392,7 +1390,7 @@ function renderPagination() {
         `;
       }
     } else {
-      html += '<li class="page-item disabled"><span class="page-link">&hellip;</span></li>';
+      html += '<li class="page-item disabled"><span class="page-link">...</span></li>';
     }
   }
   
@@ -1400,13 +1398,11 @@ function renderPagination() {
   if (currentPage < totalPages) {
     html += `
       <li class="page-item">
-        <a class="page-link" href="#" onclick="goToPage(${currentPage + 1}); return false;">
-          Berikutnya →
-        </a>
+        <a class="page-link" href="#" onclick="goToPage(${currentPage + 1}); return false;">&gt;</a>
       </li>
     `;
   } else {
-    html += '<li class="page-item disabled"><span class="page-link">Berikutnya →</span></li>';
+    html += '<li class="page-item disabled"><span class="page-link">&gt;</span></li>';
   }
   
   html += '</ul></nav>';
@@ -1416,15 +1412,15 @@ function renderPagination() {
 /**
  * Build pagination page item list with maximum button count.
  */
-function getPaginationPages(totalPages, currentPage, maxButtons = 10) {
+function getPaginationPages(totalPages, currentPage, maxButtons = 7) {
   if (totalPages <= maxButtons) {
     return Array.from({ length: totalPages }, (_, i) => ({ type: 'page', page: i + 1 }));
   }
 
   const pages = [];
 
-  if (currentPage <= 6) {
-    for (let i = 1; i <= 8; i++) {
+  if (currentPage <= 4) {
+    for (let i = 1; i <= 5; i++) {
       pages.push({ type: 'page', page: i });
     }
     pages.push({ type: 'ellipsis' });
@@ -1432,10 +1428,10 @@ function getPaginationPages(totalPages, currentPage, maxButtons = 10) {
     return pages;
   }
 
-  if (currentPage >= totalPages - 5) {
+  if (currentPage >= totalPages - 3) {
     pages.push({ type: 'page', page: 1 });
     pages.push({ type: 'ellipsis' });
-    for (let i = totalPages - 7; i <= totalPages; i++) {
+    for (let i = totalPages - 4; i <= totalPages; i++) {
       pages.push({ type: 'page', page: i });
     }
     return pages;
@@ -1443,13 +1439,9 @@ function getPaginationPages(totalPages, currentPage, maxButtons = 10) {
 
   pages.push({ type: 'page', page: 1 });
   pages.push({ type: 'ellipsis' });
-
-  const startPage = currentPage - 2;
-  const endPage = currentPage + 3;
-  for (let i = startPage; i <= endPage; i++) {
-    pages.push({ type: 'page', page: i });
-  }
-
+  pages.push({ type: 'page', page: currentPage - 1 });
+  pages.push({ type: 'page', page: currentPage });
+  pages.push({ type: 'page', page: currentPage + 1 });
   pages.push({ type: 'ellipsis' });
   pages.push({ type: 'page', page: totalPages });
   return pages;
