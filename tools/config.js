@@ -31,7 +31,7 @@ module.exports = {
   // ============================================================
   ARTICLE_PREFIX: "berita",  // Prefix nama file: berita1-f.html, berita2-f.html, dst
   ARTICLE_SUFFIX: "-f",       // Suffix untuk file generated (hindari nabrak dengan manual files)
-  ARTICLES_TO_GENERATE: 100,  // Max artikel yang di-generate (safety limit)
+  ARTICLES_TO_GENERATE: 999999,  // Max artikel yang di-generate (safety limit)
 
   // ============================================================
   // CONTENT PROCESSING
