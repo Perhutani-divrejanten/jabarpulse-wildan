@@ -1379,15 +1379,20 @@ function renderPagination() {
   }
   
   // Page numbers
-  for (let i = 1; i <= totalPages; i++) {
-    if (i === currentPage) {
-      html += `<li class="page-item active"><span class="page-link">${i}</span></li>`;
+  const paginationItems = getPaginationPages(totalPages, currentPage, 10);
+  for (const item of paginationItems) {
+    if (item.type === 'page') {
+      if (item.page === currentPage) {
+        html += `<li class="page-item active"><span class="page-link">${item.page}</span></li>`;
+      } else {
+        html += `
+          <li class="page-item">
+            <a class="page-link" href="#" onclick="goToPage(${item.page}); return false;">${item.page}</a>
+          </li>
+        `;
+      }
     } else {
-      html += `
-        <li class="page-item">
-          <a class="page-link" href="#" onclick="goToPage(${i}); return false;">${i}</a>
-        </li>
-      `;
+      html += '<li class="page-item disabled"><span class="page-link">&hellip;</span></li>';
     }
   }
   
@@ -1406,6 +1411,48 @@ function renderPagination() {
   
   html += '</ul></nav>';
   container.innerHTML = html;
+}
+
+/**
+ * Build pagination page item list with maximum button count.
+ */
+function getPaginationPages(totalPages, currentPage, maxButtons = 10) {
+  if (totalPages <= maxButtons) {
+    return Array.from({ length: totalPages }, (_, i) => ({ type: 'page', page: i + 1 }));
+  }
+
+  const pages = [];
+
+  if (currentPage <= 6) {
+    for (let i = 1; i <= 8; i++) {
+      pages.push({ type: 'page', page: i });
+    }
+    pages.push({ type: 'ellipsis' });
+    pages.push({ type: 'page', page: totalPages });
+    return pages;
+  }
+
+  if (currentPage >= totalPages - 5) {
+    pages.push({ type: 'page', page: 1 });
+    pages.push({ type: 'ellipsis' });
+    for (let i = totalPages - 7; i <= totalPages; i++) {
+      pages.push({ type: 'page', page: i });
+    }
+    return pages;
+  }
+
+  pages.push({ type: 'page', page: 1 });
+  pages.push({ type: 'ellipsis' });
+
+  const startPage = currentPage - 2;
+  const endPage = currentPage + 3;
+  for (let i = startPage; i <= endPage; i++) {
+    pages.push({ type: 'page', page: i });
+  }
+
+  pages.push({ type: 'ellipsis' });
+  pages.push({ type: 'page', page: totalPages });
+  return pages;
 }
 
 // =============================================================================
