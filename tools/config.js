@@ -8,7 +8,7 @@ module.exports = {
   // ============================================================
   // WEB APP URL - Google Apps Script Web App deployment URL
   // ============================================================
-  WEB_APP_URL: "https://script.google.com/macros/s/AKfycbw2SfGbp73DxRE54CJ7-THv0CA-cQwTQnISorQ6AxmMF_Fl_ueWyUMUDwsmkMXdVU5r7g/exec",
+  WEB_APP_URL: "https://script.google.com/macros/s/AKfycbwm07dMCmtW6NVJTBooQlFD9IoKNgDJtj6HDFICr8WMZAr5dMeQsnOgpDPgQErp8EqOGQ/exec",
   // Web App harus return JSON: array of articles [{title, content, ...}, {...}, ...]
 
   // ============================================================
